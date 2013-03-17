@@ -1,37 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (c) 2013 Derrick S. Ampy. All Rights Reserved.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-  <!-- The Basics -->
-  <groupId>com.dsampy.xml-schema-toolkit</groupId>
-  <artifactId>parent</artifactId>
-  <version>0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
+    <!-- The Basics -->
+    <groupId>com.dsampy.xml-schema-toolkit</groupId>
+    <artifactId>parent</artifactId>
+    <version>0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-  <!-- More Project Information -->
-  <name>xml-schema-toolkit</name>
-  <url>https://github.com/dsampy/xml-schema-toolkit</url>
-  <inceptionYear>2013</inceptionYear>
-  <developers>
-    <developer>
-      <id>dsampy</id>
-      <name>Derrick Ampy</name>
-      <email>dsampy@gmail.com</email>
-      <url>http://dsampy.com</url>
-      <roles>
-        <role>architect</role>
-        <role>developer</role>
-      </roles>
-      <timezone>-5</timezone>
-    </developer>
-  </developers>
+    <!-- More Project Information -->
+    <name>xml-schema-toolkit</name>
+    <url>https://github.com/dsampy/xml-schema-toolkit</url>
+    <inceptionYear>2013</inceptionYear>
+    <developers>
+        <developer>
+            <id>dsampy</id>
+            <name>Derrick Ampy</name>
+            <email>dsampy@gmail.com</email>
+            <url>http://dsampy.com</url>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <timezone>-5</timezone>
+        </developer>
+    </developers>
 
-  <!-- Environment Settings -->
-  <scm>
-    <connection>scm:git:git@github.com:dsampy/xml-schema-toolkit.git</connection>
-	<url>scm:git:git@github.com:dsampy/xml-schema-toolkit.git</url>
-	<developerConnection>scm:git:git@github.com:dsampy/xml-schema-toolkit.git</developerConnection>
-  </scm>
+    <!-- Environment Settings -->
+    <scm>
+        <connection>scm:git:git@github.com:dsampy/xml-schema-toolkit.git</connection>
+        <url>scm:git:git@github.com:dsampy/xml-schema-toolkit.git</url>
+        <developerConnection>scm:git:git@github.com:dsampy/xml-schema-toolkit.git</developerConnection>
+    </scm>
 </project>
